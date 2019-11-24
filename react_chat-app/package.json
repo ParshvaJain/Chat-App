@@ -1,0 +1,24 @@
+{
+  "name": "pusher-chatkit",
+  "version": "1.0.0",
+  "description": ":)",
+  "main": "index.js",
+  "author": "Revaz Nakhutsrishvili <rezionfire@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html --port 3000 --open",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@pusher/chatkit-client": "^1.5.0",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.19.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
